@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+{{object.title}}
+{{object.description}}
+{{object.price}}
+<img src="{{object.image.url}}" alt="image">
+{% endblock content %}
